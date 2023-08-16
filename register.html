@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>REGISTER</title>
+    <link rel="stylesheet" href="css/register.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="title">Registration</div>
+      <form id="reg" name="reg">
+        <div class="information">
+          <div class="text-center">
+            <label for="company">company</label>
+            <input
+              type="text"
+              id="company"
+              name="company"
+              placeholder="company name"
+              size="20"
+            />
+          </div>
+          <div class="text-center">
+            <label for="size">size</label>
+            <select id="size" name="size">
+              <option value="10">10x10 Ft</option>
+              <option value="15">10x15 Ft</option>
+            </select>
+          </div>
+          <div class="text-center">
+            <input type="checkbox" id="set_table" name="set_table" checked />
+            <label for="set_table">Set Table</label>
+          </div>
+          <div class="text-center">
+            <label for="chair">number of chairs</label>
+            <input
+              type="number"
+              id="chair"
+              name="chair"
+              placeholder="number of chairs"
+              size="20"
+            />
+          </div>
+          <div class="text-center">
+            <label for="name">contract</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              size="20"
+              placeholder="contract"
+            />
+          </div>
+          <div class="text-center">
+            <label for="phone">phone</label>
+            <input
+              type="number"
+              id="phone"
+              name="phone"
+              size="20"
+              placeholder="phone number"
+            />
+          </div>
+          <div class="text-center">
+            <input type="submit" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+#face_photo {
+  width: 80%;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: whitesmoke;
+  display: block;
+  font-size: 4em;
+  font-family: Courier, monospace;
+  margin-bottom: 20%;
+}
+
+h2 {
+  display: block;
+  color: whitesmoke;
+  margin-top: 10%;
+  font-size: 2em;
+}
+
+p {
+  color: whitesmoke;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#image-container {
+  width: 40%;
+  text-align: left;
+}
