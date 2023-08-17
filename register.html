@@ -3,12 +3,13 @@
   <head>
     <title>REGISTER</title>
     <link rel="stylesheet" href="css/register.css" />
+    <script src="javascript/register.js"></script>
   </head>
 
   <body>
     <div class="container">
       <div class="title">Registration</div>
-      <form id="reg" name="reg">
+      <form id="reg" name="reg" onsubmit="return false">
         <div class="information">
           <div class="text-center">
             <label for="company">company</label>
@@ -23,6 +24,7 @@
           <div class="text-center">
             <label for="size">size</label>
             <select id="size" name="size">
+              <option value="0">--choose wisely--</option>
               <option value="10">10x10 Ft</option>
               <option value="15">10x15 Ft</option>
             </select>
@@ -62,7 +64,7 @@
             />
           </div>
           <div class="text-center">
-            <input type="submit" />
+            <input type="submit" onclick="Check()" />
           </div>
         </div>
       </form>
